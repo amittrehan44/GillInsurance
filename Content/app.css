@@ -226,7 +226,16 @@ header {
 
 .bg-gray {
     background: #f8f8f8;
-}	
+}
+
+a.service-button {
+    color: #333;
+    text-decoration: none;
+}
+
+a.service-button:hover {
+    text-decoration: none; 
+}
 
  /* ===========================
 --- Carousel
