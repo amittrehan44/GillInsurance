@@ -70,8 +70,10 @@
     <!-- Section: Navigation ENd -->
 
 
-    <!-- Section: Home -->
-    <div class="container-fluid">       
+    
+    <div class="container-fluid">  
+        
+        <!-- Section: Home -->
         <section id="home" class="row">
            <div class="fill-screen stellar-bg" style="background:url(images/canadianflag-black.jpg)" data-stellar-background-ratio="0.2">
                <h1><strong>Welcome To <br>Gill Insurance</strong></h1>
@@ -104,7 +106,7 @@
                         <img src="images/Photos/carousel_bg1.jpg" alt="Web Design">
                         <div class="carousel-caption">
                             <div class="down-button">
-                                <p><strong>Search Engine Optimization<br></strong> From clicks to rank to revenue to cost.</p>
+                                <p ><strong>Search Engine Optimization<br></strong> From clicks to rank to revenue to cost.</p>
 <!--                                <a class="btn" href="#services" >
                                     <i class="fa fa-arrow-circle-down fa-2x" ></i>
                                 </a>
@@ -167,15 +169,40 @@
                     <div class="row">
                         <div class="col-sm-3 col-md-3">
                             <div class="wow fadeInLeft" data-wow-delay="0.2s">
-                                <div class="service-box">
-                                    <div class="service-icon fa fa-3x fa-google">
+                                <a class="service-button" href="#" data-toggle="modal" data-target="#myModal">
+                                    <div class="service-box">
+
+                                        <div class="service-icon fa fa-3x fa-google"></div>
+
+                                        <!-- Modal Super Visa-->
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog">
+
+                                                <!-- Modal SUper Visa content-->
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title">Super Visa</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Super Visa Description.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="service-desc">
+
+                                            <h5>Super Visa</h5>
+                                            <p>uyutryututu gjgjhg fekjgjhfd gjhsf gjh ghgd ggtyyu ghjgfhjgjh gjhghjgjh gjhgyugtuy ghjgfyutuy gyguy</p>
 
                                         </div>
-                                    <div class="service-desc">
-                                        <h5>Super Visa</h5>
-                                        <p>uyutryututu gjgjhg fekjgjhfd gjhsf gjh ghgd ggtyyu ghjgfhjgjh gjhghjgjh gjhgyugtuy ghjgfyutuy gyguy</p>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-sm-3 col-md-3">
@@ -416,6 +443,10 @@
 
             // initialize WOW for element animation 
             new WOW().init();
+
+
+            //move modal out from parent container before displaying it
+            $('#myModal').appendTo("body");
 
 
         });
