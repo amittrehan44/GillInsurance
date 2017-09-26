@@ -7,18 +7,17 @@
 
 .top {
     background-color: #701919;
-    min-height:20px;
+    min-height:35px !important;
+    
 }
 
-.top h1 {
-
-        font-size: 17px;
+    .top h1 {
+        font-size: 25px;
         text-align: center;
         color: white;
         margin: 0;
-       
-        
-}
+        padding-top: 3px;
+    }
 
 .btn-circle {
     width: 70px;
@@ -45,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin: 0 0 20px;
+    /*margin: 0 0 20px; */
     font-size: 16px;
     line-height: 1.6em;
 }
@@ -59,6 +58,7 @@ header {
 }
 
 .navbar {
+    margin-top: 35px !important;
     margin-bottom: 0px;
     padding: 30px 15px;
     -webkit-transition: all 0.5s;
@@ -112,6 +112,17 @@ header {
     margin: 0 5px 0 0;
     padding: 0 0 0 15px;
 }
+
+    .fill-screen h3 {
+        display: inline-block;
+        font-family: 'Montserrat',sans-serif;
+        font-size: 15px;
+        color: white;
+        text-transform: none;
+        font-weight: 400;
+        margin: 0 5px 0 0;
+        padding: 0 0 0 15px;
+    }
 
 
 .fill-screen-repeat {
@@ -237,18 +248,22 @@ a.service-button:hover {
     text-decoration: none; 
 }
 
- /* ===========================
+.service-box {
+    margin-bottom: 20px;
+}
+
+/* ===========================
 --- Carousel
 ============================ */
-
 #carousel {
-   /*margin: 0px 0px; */
+    /*margin: 0px 0px; */
 }
 
-#carousel img {
-    width: 100%;
-    max-height: 600px;
-}
+    #carousel img {
+        width: 100%;
+        max-height: 600px;
+        /* height: auto;*/
+    }
 
 .carousel-inner .item p {
 
@@ -261,8 +276,7 @@ a.service-button:hover {
 /* ===========================
 --- About
 ============================ */
-
-.boxed-grey {
+        .boxed-grey {
 	background: #f9f9f9;
 	padding: 20px;
 }
@@ -482,7 +496,8 @@ footer {
 @media (min-width: 600px) {
     #carousel img {
         width: 100%;
-        max-height: 300px;
+        max-height: 300px; *
+       
     }
 
     .carousel-inner .item p {
@@ -518,7 +533,7 @@ footer {
         }
 
     #carousel {
-        margin-top: 50px !important;
+        /* margin-top: 50px !important; */
     }
 }
 
