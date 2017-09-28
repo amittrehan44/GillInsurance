@@ -324,12 +324,12 @@ a.service-button:hover {
 	background:url(img/bg-map.png) left 190px no-repeat;
 }
 .contact-info-box{
-	font-size:20px;
-	margin:0 0 14px 68px;
+	font-size:15px;
+	margin:0 0 14px 0px;
 	padding-left:0;
 }
 .contact-info-box h3{
-	font-size: 20px;
+	font-size: 15px;
 	font-weight:400;
 	float:left;
 	width:102px;
@@ -351,7 +351,7 @@ a.service-button:hover {
 }
 .social-link{
 	padding:35px 0;
-	margin:0 0 0 68px;
+	margin:0 0 0 0;
 	display:block;
 	overflow:hidden;
 	list-style:none;
@@ -474,6 +474,12 @@ a.service-button:hover {
  #sendmessage.show, #errormessage.show, .show {
         display: block;
     }
+
+/* Section Google Map */
+#map {
+    height: 200px;
+    width: 100%;
+}
 
 
 footer {
