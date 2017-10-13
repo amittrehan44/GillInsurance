@@ -306,6 +306,11 @@ a.service-button:hover {
 
 }
 
+.awards {
+    text-align: left;
+    text-decoration: solid;
+}
+
 
 /* Talk Business
 ---------------------------------*/
@@ -332,8 +337,8 @@ a.service-button:hover {
 	padding:90px 0 100px;
 }
 
-.main-section.contact{
-	background:url(img/bg-map.png) left 190px no-repeat;
+.main-section.contact {
+    /*	background:url(img/bg-map.png) left 190px no-repeat; */
 }
 .contact-info-box{
 	font-size:15px;
@@ -406,20 +411,20 @@ a.service-button:hover {
 .form{
 	margin:0 66px 0 30px;
 }
-.input-text{
-	padding:15px 16px;
-	border:1px solid #ccc;
-	width:100%;
-	height:50px;
-	display:block;
-	border-radius:4px;
-	font-size:15px;
-	color:#aaa;
-	font-family: 'Open Sans', sans-serif;
-	margin:0 0 15px 0;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
+.input-text {
+    padding: 15px 16px;
+    border: 1px solid #7a7a7a;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 15px 0;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
 }
 .input-text:focus {
 	border: 1px solid #7cc576;
