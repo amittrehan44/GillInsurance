@@ -178,11 +178,12 @@ span.intro {
     margin-bottom: 20px;
 }
 
+/*
     .servicedesc div:first-child {
         padding-right: 40px;
         border-right: 1px solid #dbdbdb;
     }
-
+*/
 span.bold-green-txt {
     color: #99cc5d;
     font-weight: 600;

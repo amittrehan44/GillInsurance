@@ -258,7 +258,7 @@ a.service-button:hover {
     /*margin: 0px 0px; */
 }
 
-    #carousel img {
+ #carousel img {
         width: 100%;
         max-height: 600px;
         min-height: 150px;
@@ -271,6 +271,18 @@ a.service-button:hover {
     
 }
 
+.carousel-caption h3{
+    color: maroon;
+    margin: 0 0 0 0;
+    font-size: 20px;
+
+}
+
+/* Truck */
+
+.truck div img{
+    margin-top: 0px !important;
+}
 
 
 /* ===========================
@@ -519,7 +531,7 @@ footer {
 @media (min-width: 600px) {
     #carousel img {
         width: 100%;
-        max-height: 300px; *
+        max-height: 300px; 
        
     }
 
@@ -558,6 +570,10 @@ footer {
     #carousel {
         /* margin-top: 50px !important; */
     }
+
+    .carousel-caption h3 {
+        font-size: 18px;
+    }
 }
 
 
@@ -585,5 +601,9 @@ footer {
         
         font-size: 17px;
         line-height: 0px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 13px;
     }
 }
