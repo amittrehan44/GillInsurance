@@ -418,9 +418,10 @@ a.service-button:hover {
     height: 50px;
     display: block;
     border-radius: 4px;
-    font-size: 15px;
-    color: #333333;
+    font-size: 20px;
+    color: black;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: solid;
     margin: 0 0 15px 0;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -493,6 +494,9 @@ a.service-button:hover {
         display: block;
     }
 
+.form-group h5 {
+    margin: 0 0 10px;
+}
 /* Address */
 
 .address h7 {
